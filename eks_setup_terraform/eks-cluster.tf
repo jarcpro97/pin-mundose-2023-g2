@@ -14,7 +14,7 @@ module "eks" {
     GithubOrg   = "terraform-aws-modules"
   }
 
-  eks_managed_node_group_default = {
+  eks_managed_node_group_defaults = {
     root_volume_type = "gp2"
   }
 
